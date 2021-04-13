@@ -9,7 +9,7 @@ function setup(){
     createCanvas(800,800);
     brain= new Perceptron(3);
 
-    for (let i=0;i<100;i++){
+    for (let i=0;i<300;i++){
         points.push(new Point());
     }
 }
